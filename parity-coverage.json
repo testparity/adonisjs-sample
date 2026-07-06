@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "globalPercent": 80,
+  "files": [
+    {
+      "path": "app/services/user_presenter.ts",
+      "coveragePercent": 70,
+      "totalExecutableLines": 10,
+      "lines": [
+        {
+          "line": 1,
+          "coveredBy": [
+            "user_presenter.spec::coversPrimaryBehavior"
+          ]
+        },
+        {
+          "line": 2,
+          "coveredBy": [
+            "user_presenter.spec::coversPrimaryBehavior"
+          ]
+        },
+        {
+          "line": 3,
+          "coveredBy": [
+            "user_presenter.spec::coversPrimaryBehavior",
+            "user_presenterIntegrationTest::coversThroughPublicWorkflow"
+          ]
+        },
+        {
+          "line": 4,
+          "coveredBy": [
+            "user_presenter.spec::coversPrimaryBehavior",
+            "user_presenterIntegrationTest::coversThroughPublicWorkflow"
+          ]
+        },
+        {
+          "line": 5,
+          "coveredBy": [
+            "user_presenterIntegrationTest::coversThroughPublicWorkflow"
+          ]
+        },
+        {
+          "line": 6,
+          "coveredBy": [
+            "user_presenterIntegrationTest::coversThroughPublicWorkflow"
+          ]
+        },
+        {
+          "line": 7,
+          "coveredBy": [
+            "user_presenterIntegrationTest::coversThroughPublicWorkflow",
+            "user_presenterSmokeTest::coversBootstrapPath"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "app/services/audit_summary.ts",
+      "coveragePercent": 90,
+      "totalExecutableLines": 10,
+      "lines": [
+        {
+          "line": 1,
+          "coveredBy": [
+            "audit_summary.spec::coversPrimaryBehavior"
+          ]
+        },
+        {
+          "line": 2,
+          "coveredBy": [
+            "audit_summary.spec::coversPrimaryBehavior"
+          ]
+        },
+        {
+          "line": 3,
+          "coveredBy": [
+            "audit_summary.spec::coversPrimaryBehavior",
+            "audit_summaryIntegrationTest::coversThroughPublicWorkflow"
+          ]
+        },
+        {
+          "line": 4,
+          "coveredBy": [
+            "audit_summary.spec::coversPrimaryBehavior",
+            "audit_summaryIntegrationTest::coversThroughPublicWorkflow"
+          ]
+        },
+        {
+          "line": 5,
+          "coveredBy": [
+            "audit_summary.spec::coversPrimaryBehavior",
+            "audit_summaryIntegrationTest::coversThroughPublicWorkflow"
+          ]
+        },
+        {
+          "line": 6,
+          "coveredBy": [
+            "audit_summary.spec::coversPrimaryBehavior",
+            "audit_summaryIntegrationTest::coversThroughPublicWorkflow"
+          ]
+        },
+        {
+          "line": 7,
+          "coveredBy": [
+            "audit_summary.spec::coversPrimaryBehavior",
+            "audit_summaryIntegrationTest::coversThroughPublicWorkflow"
+          ]
+        },
+        {
+          "line": 8,
+          "coveredBy": [
+            "audit_summary.spec::coversPrimaryBehavior",
+            "audit_summaryIntegrationTest::coversThroughPublicWorkflow"
+          ]
+        },
+        {
+          "line": 9,
+          "coveredBy": [
+            "audit_summary.spec::coversPrimaryBehavior",
+            "audit_summaryIntegrationTest::coversThroughPublicWorkflow",
+            "audit_summarySmokeTest::coversBootstrapPath"
+          ]
+        }
+      ]
+    }
+  ]
+}
