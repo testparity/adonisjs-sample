@@ -1,8 +1,9 @@
 import { test } from '@japa/runner'
-import { displayName } from '../../../app/services/user_presenter'
+import { displayName, initials } from '#services/user_presenter'
 
 test.group('user_presenter', () => {
-  test('formats display name', ({ assert }) => {
+  test('owns the primary presentation behavior', ({ assert }) => {
     assert.equal(displayName({ firstName: 'Ada', lastName: 'Lovelace' }), 'Ada Lovelace')
+    assert.equal(initials({ firstName: 'Ada', lastName: 'Lovelace' }), 'AL')
   })
 })
