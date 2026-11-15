@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   parity:
-    name: Run native tests and Parity
+    name: Install and run Parity
     runs-on: ubuntu-latest
     outputs:
       artifact-id: ${{ steps.parity-upload.outputs.artifact-id }}
