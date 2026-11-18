@@ -52,3 +52,5 @@ The expected result is `passed = true`, `global_coverage = 85.19`, and the file-
 ## CI
 
 GitHub Actions installs locked npm dependencies, runs the complete AdonisJS suite, installs public `testparity/parity:^1.2`, and executes `parity test`. The generated `.parity/per-test` directory and JSON result are uploaded as the `parity-per-test-evidence` artifact for 14 days. No private token is required.
+
+[![advertisement](https://ads.servead.net/i/c94c5bd2-a811-44a1-b072-870883c39191.svg)](https://ads.servead.net/c/c94c5bd2-a811-44a1-b072-870883c39191)
